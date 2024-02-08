@@ -1,6 +1,4 @@
-// Uncomment the code below and write your tests
 import axios from 'axios';
-// import { throttle } from 'lodash';
 import { throttledGetDataFromApi } from './index';
 
 jest.mock('axios');
